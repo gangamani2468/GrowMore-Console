@@ -1,0 +1,115 @@
+ 2023-02-07T15:50:08.252077358 entering getDBConnection method
+   2023-02-07T15:50:09.235800280 entering server hosting
+   2023-02-07T15:50:10.582226299 entering getDBConnection method
+   2023-02-07T15:50:11.120893118 entering main method
+   2023-02-07T15:50:24.403875578 entering signin method
+   2023-02-07T15:50:24.404408587 entering accessClients method
+   2023-02-07T15:50:46.205492160 entering getDBConnection method
+   2023-02-07T15:50:46.781237805 entering main method
+   2023-02-07T15:50:49.648263224 entering signup method
+   2023-02-07T22:45:08.698811683 entering getDBConnection method
+   2023-02-07T22:45:09.421596544 entering main method
+   2023-02-07T22:45:19.249256602 entering signin method
+   2023-02-07T22:45:19.249643157 entering accessClients method
+   2023-02-07T22:45:20.964858465 entering watchList method
+   2023-02-07T22:45:22.185323400 entering isis number method
+   2023-02-07T22:45:22.185505927 entering marketPriceCheck method
+   2023-02-07T22:45:22.279835670 Error Occured.
+  java.net.UnknownHostException: groww.in
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(HttpsURLConnectionImpl.java:142)
+	at main.MainClass.marketPriceCheck(MainClass.java:483)
+	at main.MainClass.watchList(MainClass.java:220)
+	at main.MainClass.accessClients(MainClass.java:184)
+	at main.MainClass.signIn(MainClass.java:160)
+	at main.MainClass.main(MainClass.java:99)
+ 2023-02-07T22:45:22.284156631 Error Occured.
+  java.net.UnknownHostException: groww.in
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304)
+	at java.base/sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:174)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:183)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:531)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:636)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:193)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:179)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:224)
+	at main.MainClass.marketPriceCheck(MainClass.java:493)
+	at main.MainClass.watchList(MainClass.java:220)
+	at main.MainClass.accessClients(MainClass.java:184)
+	at main.MainClass.signIn(MainClass.java:160)
+	at main.MainClass.main(MainClass.java:99)
+ 2023-02-07T22:45:41.379620395 entering getDBConnection method
+   2023-02-07T22:45:41.812597137 entering main method
+   2023-02-07T22:45:51.873949545 entering signin method
+   2023-02-07T22:45:51.874313701 entering accessClients method
+   2023-02-07T22:45:53.068290614 entering watchList method
+   2023-02-07T22:45:54.377046272 entering isis number method
+   2023-02-07T22:45:54.377232903 entering marketPriceCheck method
+   2023-02-23T19:25:59.193813846 entering getDBConnection method
+   2023-02-23T19:25:59.698079817 entering main method
+   2023-02-23T19:26:10.537218283 entering signin method
+   2023-02-23T19:26:10.537417957 entering accessClients method
+   2023-02-23T19:27:31.387769908 entering getDBConnection method
+   2023-02-23T19:27:31.684027426 entering main method
+   2023-02-23T19:27:44.205573398 entering signin method
+   2023-02-23T19:27:44.205933417 entering accessClients method
+   2023-02-23T19:28:21.346472366 entering getDBConnection method
+   2023-02-23T19:28:21.647798933 entering main method
+   2023-02-23T19:28:32.666083710 entering signin method
+   2023-02-23T19:28:32.666379177 entering accessClients method
+   2023-02-23T19:28:50.412040421 entering getDBConnection method
+   2023-02-23T19:28:50.698937150 entering main method
+   2023-02-23T19:29:01.622479522 entering signin method
+   2023-02-23T19:29:01.622797067 entering accessClients method
+   2023-02-23T19:30:01.626936913 entering getDBConnection method
+   2023-02-23T19:30:01.907850201 entering main method
+   2023-02-23T19:30:13.877937607 entering signin method
+   2023-02-23T19:30:13.886630215 entering accessClients method
+   2023-02-23T19:30:27.982761682 entering getDBConnection method
+   2023-02-23T19:30:28.252592378 entering main method
+   2023-02-23T19:30:38.304429143 entering signin method
+   2023-02-23T19:30:38.304869490 entering accessClients method
+   2023-02-23T19:30:44.758764128 entering watchList method
+   2023-02-23T19:30:47.130711938 entering isis number method
+   2023-02-23T19:30:47.130920913 entering marketPriceCheck method
+   2023-02-23T19:30:47.598798871 entering currAmount method
+   2023-02-23T19:30:47.598928464 entering marketPriceCheck method
+   2023-02-23T19:30:47.690469839 entering profitAndLosses method
+   2023-02-23T19:30:47.690623326 entering currAmount method
+   2023-02-23T19:30:47.690690585 entering marketPriceCheck method
+   2023-02-23T19:30:47.780557024 entering currAmount method
+   2023-02-23T19:30:47.780815943 entering marketPriceCheck method
+   2023-02-27T07:51:04.939745102 entering getDBConnection method
+   2023-02-27T07:51:05.664317605 Error Occured.
+  java.lang.NumberFormatException: For input string: "+2.5"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:668)
+	at java.base/java.lang.Integer.parseInt(Integer.java:786)
+	at main.MainClass.<clinit>(MainClass.java:65)
+ 2023-02-27T07:51:05.666314919 entering main method
+   2023-02-27T07:51:25.953945004 entering signin method
+   2023-02-27T07:51:41.925073114 entering signin method
+   2023-02-27T07:52:05.208241305 entering signin method
+  
